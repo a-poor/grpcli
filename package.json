@@ -17,9 +17,12 @@
     "/oclif.manifest.json"
   ],
   "dependencies": {
-    "@oclif/core": "^1",
+    "@grpc/grpc-js": "^1.5.7",
+    "@grpc/proto-loader": "^0.6.9",
+    "@oclif/core": "^1.4.0",
     "@oclif/plugin-help": "^5",
-    "@oclif/plugin-plugins": "^2.0.1"
+    "@oclif/plugin-plugins": "^2.0.1",
+    "chalk": "^5.0.0"
   },
   "devDependencies": {
     "@oclif/test": "^2",
